@@ -1,0 +1,120 @@
+*{
+  margin:0;
+  font-family:"Montserrat";
+}
+.topofpage{
+  background-image: url(https://files.socioeconlabs.org/images/mountain_image.jpeg);
+min-height: 45vh;
+background-size:cover;
+background-repeat: no-repeat;
+display:flex;
+flex-direction:column;
+justify-content: flex-end;
+}
+.topofpage:after{
+  position: absolute;
+  height: 45vh;
+  width: 100%;
+  background-color: rgb(28, 69, 135 ,.3);
+  top: 10vh;
+  left: 0;
+  display: block;
+  content: "";
+}
+.topofpage h1{
+  z-index: 1;
+  font-weight:500;
+color:white;
+padding-bottom: 4vw;
+padding-right: 4vw;
+padding-left: 4vw;
+}
+.firsttext{
+  width:95%;
+  margin:auto;
+  display:flex;
+  flex-direction:row;
+}
+.firsttext h1{
+  font-weight:500;
+      color: #004766;
+      margin-bottom:2rem;
+      margin-top:2rem;
+}
+.firsttext h1 em{
+  font-weight:700;
+}
+.firsttext p em{
+  font-weight:700;
+}
+.sectionone{
+  line-height: 1.4;
+  font-size:1.25rem;
+  flex-basis:85%;
+}
+.sectiontwo img{
+  width:65%;
+}
+.secondsection{
+  margin:auto;
+  margin-top:2.5rem;
+  padding-bottom:1rem;
+}
+.thirdsection{
+text-align:center;
+width:65%;
+padding-top:5rem;
+margin:auto;
+}
+.thirdsection h1{
+    color: #004766;
+    margin-bottom:2rem;
+}
+.thirdsection p{
+  margin-bottom:4rem;
+  font-size:1.25rem;
+}
+@media screen and (max-width: 1024px){
+  .firsttext{
+    flex-direction:column;
+  }
+  .sectiontwo img{
+    width:90%;
+  }
+  .topofpage h1{
+    font-size:1.5rem;
+  }
+  .thirdsection{
+    width:85%;
+  }
+}
+.content{
+  display: flex;
+    margin-left: 270px;
+    align-items: center;
+    overflow: hidden;
+}
+.text-boxes{
+  width: 60%;
+  margin:auto;
+}
+.right img{
+  width: 50%;
+    height: 50%;
+}
+.left p{
+      font-weight: 700;
+}
+.content a{
+  margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #0D506E;
+}
+ @media (max-width:1024px){
+   .content{
+       margin-left: 0;
+
+     }
+ }
